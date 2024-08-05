@@ -2,12 +2,13 @@ body {
     font-family: Roboto, Arial;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 button {
     font-family: Roboto, Arial;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 5px 30px;
 }
 
 .header,
@@ -15,6 +16,67 @@ button {
 .footer {
     background-color: #1f2937;
     color: white;
+}
+
+.header {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.header .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-text-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    flex-grow: 0;
+    gap: 20px;
+}
+
+.hero-text .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    gap: 10px;
+}
+
+.hero-text .title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.hero-text .text {
+    font-size: 16px;
+}
+
+.hero-text .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #6d747d;
+    width: 570px;
+    height: 250px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
 }
 
 .footer {
@@ -32,11 +94,19 @@ button {
 }
 
 .info-square {
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
     border: solid;
     border-color: #3b82f6;
     border-radius: 8px;
+}
+
+.card .text {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    color: #7a818c;
 }
 
 .sign-up-card {
