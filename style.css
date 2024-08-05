@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto, Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-family: Roboto, Arial;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.header,
+.hero-text,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+.hero-text button,
+.sign-up-card button {
+    background: #3b82f6;
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+}
+
+.info-square {
+    height: 90px;
+    width: 90px;
+    border: solid;
+    border-color: #3b82f6;
+    border-radius: 8px;
+}
+
+.sign-up-card {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.sign-up-card button {
+    border-style: solid;
+    border-color: white;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
